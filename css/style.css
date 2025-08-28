@@ -109,4 +109,18 @@ figcaption {
 article {
     border-left: solid 2px brown;
     padding-left: 10px;
+
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+    color: White;
+    text-align: center;
+    padding: 30px;
+    width: 100%;
+    margin-top: 0;
+    font-size: 30px;
 }
