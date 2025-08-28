@@ -51,26 +51,29 @@ img {
     padding: 20px;
 }
 
-.lista {
+ul {
     display: flex;
     list-style: none;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 20px;
-    gap: 150px;
-    border: solid 1px rgb(161, 8, 8);
-    border-radius: 20px 20px 20px;
-    background-color: white;
     text-align: center;
+    gap: 100px;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    color: white;
 }
 
 a {
-    color: black;
+    color: white;
     text-decoration: none;
+    font-size: 1.2em;
 }
 
 a:hover {
-    color: blue;
+    color: brown;
     text-decoration: underline;
 }
 
